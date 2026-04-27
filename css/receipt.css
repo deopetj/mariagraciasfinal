@@ -1,0 +1,63 @@
+  body {
+            font-family: "Courier New", monospace;
+            text-align: center;
+            background-color: #f8f8f8;
+            padding: 20px;
+        }
+        .receipt {
+            width: 350px;
+            background: white;
+            padding: 20px;
+            border: 2px dashed #333;
+            display: inline-block;
+            text-align: left;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        .receipt h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .receipt p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .receipt .separator {
+            border-top: 2px dashed #333;
+            margin: 10px 0;
+        }
+        .qr-container {
+            text-align: center;
+            margin: 15px 0;
+        }
+        .qr-container img {
+            width: 150px;
+            height: 150px;
+        }
+        .buttons {
+            margin-top: 15px;
+            text-align: center;
+        }
+        .buttons button {
+            font-size: 14px;
+            padding: 8px 12px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+            background: #333;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .buttons button:hover {
+            background: #555;
+        }
+        .proof-of-payment {
+            margin-top: 15px;
+            text-align: center;
+        }
+        .proof-of-payment input[type="file"] {
+            font-size: 14px;
+            padding: 8px;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
